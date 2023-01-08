@@ -11,6 +11,6 @@ public class RossMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
+		ModItems.registrarModItem();
 	}
 }
