@@ -1,9 +1,6 @@
-# Fabric Example Mod
+# Ross Mod
 
-## Setup
+## Inicios
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Este un mod, creado por Sammy con la finalidad de practicar sus conocimiento de Java nivel intermedio
+este todavia no tienen un objetivo, cualquier que se agrega es para practicar.
