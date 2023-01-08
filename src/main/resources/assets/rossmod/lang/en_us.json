@@ -5,5 +5,7 @@
 
   "block.rossmod.ross_block": "Ross Block",
   "block.rossmod.raw_ross_ore": "Raw Ross Ore",
-  "block.rossmod.deepslate_ross_ore": "Deepslate Ross Block"
+  "block.rossmod.deepslate_ross_ore": "Deepslate Ross Block",
+
+  "itemGroup.rossmod.ross": "Ross Tab"
 }

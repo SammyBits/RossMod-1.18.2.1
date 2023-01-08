@@ -9,8 +9,7 @@ import net.sammy.rossmod.RossMod;
 public class ModItemGroup
 {
     public static final ItemGroup ROSS = FabricItemGroupBuilder.build(new Identifier(RossMod.MOD_ID, "ross"),
-            () -> new ItemStack(ModItems.ROSS))
-            .setTexture("rossmod:item/ross");
+            () -> new ItemStack(ModItems.ROSS));
 
 
 }

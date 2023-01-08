@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ross_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rossmod:ross_block"
+    }
+  },
+  "result": {
+    "item": "rossmod:ross_ingot"
+  }
+}
