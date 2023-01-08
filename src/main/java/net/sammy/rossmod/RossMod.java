@@ -1,6 +1,7 @@
 package net.sammy.rossmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.sammy.rossmod.block.ModBlocks;
 import net.sammy.rossmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,5 +13,6 @@ public class RossMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registrarModItem();
+		ModBlocks.registerModBlock();
 	}
 }
