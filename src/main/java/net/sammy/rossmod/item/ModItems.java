@@ -9,10 +9,12 @@ import net.sammy.rossmod.RossMod;
 
 public class ModItems {
     public static final Item ROSS_INGOT = registrarItem("ross_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ROSS)));
 
     public static final Item ROSS_NUGGET = registrarItem("ross_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.ROSS)));
+
+    public static final Item ROSS = registrarItem("ross", new Item(new FabricItemSettings()));
 
     private static Item registrarItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(RossMod.MOD_ID,name), item);

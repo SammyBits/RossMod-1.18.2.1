@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rossmod:block/raw_ross_ore"
+  }
+}

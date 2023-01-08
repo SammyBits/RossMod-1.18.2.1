@@ -3,6 +3,7 @@
   "item.rossmod.ross_nugget": "Ross Nugget",
 
 
-
-  "block.rossmod.ross_block": "Ross BLock"
-}.
+  "block.rossmod.ross_block": "Ross Block",
+  "block.rossmod.raw_ross_ore": "Raw Ross Ore",
+  "block.rossmod.deepslate_ross_ore": "Deepslate Ross Block"
+}

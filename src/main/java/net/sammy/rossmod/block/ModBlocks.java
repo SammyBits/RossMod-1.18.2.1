@@ -10,14 +10,23 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.sammy.rossmod.RossMod;
+import net.sammy.rossmod.item.ModItemGroup;
 
 public class ModBlocks {
 
     public static final Block ROSS_BLOCK = registerBlock("ross_block",
-            new Block(FabricBlockSettings.of(Material.WOOD).strength(6F)),ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6F).requiresTool()),ItemGroup.MISC);
 
-    public static final Block ROSS_METALBLOCK = registerBlock("ross_metalblock",
-            new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5F)),ItemGroup.MISC);
+    public static final Block ROSS_ORE = registerBlock("ross_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(4.5F)), ModItemGroup.ROSS);
+
+    public static final Block DEEPSLATE_ROSS_ORE = registerBlock("deepslate_ross_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0F, 6.0F)),
+            ModItemGroup.ROSS);
+
+    public static final Block RAW_ROSS_BLOCK = registerBlock("raw_ross_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0F)),
+            ModItemGroup.ROSS);
 
     private static Block registerBlock(String nombre, Block block, ItemGroup group){
         registerBlockItem(nombre,block,group);
