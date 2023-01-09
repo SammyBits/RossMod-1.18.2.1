@@ -15,17 +15,17 @@ import net.sammy.rossmod.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block ROSS_BLOCK = registerBlock("ross_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6F).requiresTool()),ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()),ItemGroup.MISC);
 
     public static final Block ROSS_ORE = registerBlock("ross_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(4.5F)), ModItemGroup.ROSS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.ROSS);
 
     public static final Block DEEPSLATE_ROSS_ORE = registerBlock("deepslate_ross_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0F, 6.0F)),
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()),
             ModItemGroup.ROSS);
 
     public static final Block RAW_ROSS_BLOCK = registerBlock("raw_ross_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0F)),
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
             ModItemGroup.ROSS);
 
     private static Block registerBlock(String nombre, Block block, ItemGroup group){

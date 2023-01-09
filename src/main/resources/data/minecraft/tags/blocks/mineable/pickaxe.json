@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rossmod:ross_block",
+    "rossmod:ross_ore",
+    "rossmod:deepslate_ross_ore",
+    "rossmod:raw_ross_ore"
+  ]
+}

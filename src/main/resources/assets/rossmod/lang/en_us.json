@@ -1,9 +1,12 @@
 {
   "item.rossmod.ross_ingot": "Ross Ingot",
   "item.rossmod.ross_nugget": "Ross Nugget",
+  "item.rossmod.ross_raw": "Ross Raw",
+  "item.rossmod.pan": "Pan",
 
 
   "block.rossmod.ross_block": "Ross Block",
+  "block.rossmod.ross_ore": "Ross Ore",
   "block.rossmod.raw_ross_ore": "Raw Ross Ore",
   "block.rossmod.deepslate_ross_ore": "Deepslate Ross Block",
 

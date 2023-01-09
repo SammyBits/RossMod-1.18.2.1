@@ -14,5 +14,6 @@ public class RossMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registrarModItem();
 		ModBlocks.registerModBlock();
+
 	}
 }

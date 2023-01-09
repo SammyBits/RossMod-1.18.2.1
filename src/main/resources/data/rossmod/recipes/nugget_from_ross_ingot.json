@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rossmod:ross_ingot"
+    }
+  ],
+  "result": {
+    "item": "rossmod:ross_nugget",
+    "count": 9
+  }
+}
